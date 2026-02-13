@@ -1,0 +1,286 @@
+
+/* #region main */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: white;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+
+ul {    
+    list-style: none;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #434455;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #404BBF;
+}
+
+/* #endregion main */
+
+/* #region header */
+
+
+
+.name-web {
+    color: #4D5AE5;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.name-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+}
+
+.nav-list,
+.nav-studio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42
+}
+
+
+.nav-list:hover,
+.nav-studio:hover,
+.nav-list:focus,
+.nav-studio:focus {
+    color: #404BBF;
+    text-decoration: none;
+}
+
+.nav-studio:active {
+    text-decoration: underline;
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+    text-decoration: none;
+}
+/* #endregion header */
+
+/* #region Effective Solutions for Your Business */
+
+.section-main-title {
+    background-color: #2E2F42;
+}
+
+.main-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: white;
+    text-align: center;
+}
+
+.main-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+/* #endregion Effective Solutions for Your Business */
+
+/* #region Our Features */
+
+.section-title {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+
+.list-title {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.list-text {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/* #endregion Our Features */
+
+/* #region img our team */
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-team-title {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-team-list {
+    background-color: white;
+}
+
+.list-title-team {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.list-text-team {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* #endregion img our team */
+
+
+/* #region Our Portfolio */
+
+.title-portfolio {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.list-portfolio {
+    background-color: white;
+}
+
+.list-title-portfolio {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.list-text-portfolio {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+/* #endregion Our Portfolio */
+
+/* #region footer */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.name-studio-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.text-footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+/* #endregion footer */
+
