@@ -103,9 +103,7 @@ a:focus {
 
 .header-container {
     display: flex;
-    display: flex;
     align-items: center;
-    height: 72px;
 
 }
 
@@ -113,12 +111,12 @@ a:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex-grow: 1;
 }
 
 .site-name {
-    display: flex;
+    display: block;
     margin-right: 76px;
 }
 
@@ -180,7 +178,6 @@ a:focus {
 
 .section-features-container {
     padding: 120px 0;
-    height: 334px;
 }
 
 .features-container {
@@ -211,7 +208,6 @@ a:focus {
 
 .section-team {
     padding: 120px 0;
-    height: 732px;
 }
 
 .team-container {
@@ -275,7 +271,6 @@ a:focus {
 
 .title-portfolio {
     text-align: center;
-    margin-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -363,7 +358,12 @@ a:focus {
     letter-spacing: 0.02em;
     color: #2E2F42;
     display: block;
-    padding:24px 0;
+}
+
+.link-studio, 
+.link-list {
+    display: block;
+    padding: 24px 0
 }
 
 
@@ -380,7 +380,7 @@ a:focus {
 }
 
 .contact {
-    display: flex;
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
