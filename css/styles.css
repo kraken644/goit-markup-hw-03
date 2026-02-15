@@ -1,6 +1,18 @@
 
 /* #region main */
 
+* {
+    box-sizing: border-box;
+}
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -9,7 +21,21 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     background-color: white;
+
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}   
 
 h2 {
     font-family: "Roboto", sans-serif;
@@ -40,9 +66,222 @@ a:hover,
 a:focus {
     text-decoration: underline;
     color: #404BBF;
-}
+} 
 
 /* #endregion main */
+
+/* #region container */
+
+    /* #region container main */
+.container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+/* #endregion container main */
+
+        /* #region container header  */
+
+
+.header-container {
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.container-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.site-name {
+    display: flex;
+    margin-right: 76px;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    flex-grow: 1;
+    width: 261px;
+}
+
+.contact-container {
+    display: flex;
+    gap : 40px;
+    margin-left: 328px;
+}
+
+
+
+/* #endregion conteinet header */
+
+        /* #region main title cobtainer */
+
+.main-title-container {
+    display: flex;
+    width: 1440px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    display: flex;
+    text-align: center;
+    width: 496px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.main-button {
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+/* #endregion main title cobtainer */
+
+        /* #region Our Features container */
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 334px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features-list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    column-gap: 24px;
+}
+
+/* #endregion Our Features container */
+
+        /* #region img our team container */
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 732px;
+}
+
+.section-team-title {
+    display: flex;
+    text-align: center;
+    margin-bottom: 72px;
+    margin-top: 120px;
+}
+
+.team-list-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    column-gap: 24px;
+}
+
+.section-team-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+}
+
+
+        /* #endregion img our team container */
+
+        /* #region Our Portfolio container */
+        
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.title-portfolio {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+.list-portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.portfolio-text-container {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+}
+
+/* #endregion Our Portfolio container */
+
+/* #region footer */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 312px;
+    align-items: start;
+    justify-content: center;
+}
+
+.text-footer {
+    width: 264px;
+    margin-top: 16px;
+}
+
+/* #endregion footer */
+
+/* #endregion container */
 
 /* #region header */
 
@@ -105,7 +344,7 @@ a:focus {
 .contact:focus {
     color: #404BBF;
     text-decoration: none;
-}
+} 
 /* #endregion header */
 
 /* #region Effective Solutions for Your Business */
@@ -176,7 +415,7 @@ a:focus {
 /* #endregion Our Features */
 
 /* #region img our team */
-
+ 
 .section-team {
     background-color: #F4F4FD;
 }
@@ -213,7 +452,7 @@ a:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-}
+} 
 
 /* #endregion img our team */
 
