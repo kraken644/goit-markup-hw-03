@@ -18,6 +18,10 @@
     overflow: hidden;
 }
 
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 
 img {
     display: block;
@@ -103,7 +107,6 @@ a:focus {
     display: flex;
     align-items: center;
     height: 72px;
-    border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -357,7 +360,9 @@ a:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42
+    color: #2E2F42;
+    display: block;
+    padding:24px 0;
 }
 
 
@@ -374,6 +379,7 @@ a:focus {
 }
 
 .contact {
+    display: flex;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -475,6 +481,7 @@ a:focus {
 
 .section-team-list {
     background-color: white;
+    border-radius: 0 0 4px 4px
 }
 
 .list-title-team {
