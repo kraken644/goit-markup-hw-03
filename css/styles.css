@@ -360,8 +360,7 @@ a:focus {
     display: block;
 }
 
-.link-studio, 
-.link-list {
+.navigation a {
     display: block;
     padding: 24px 0
 }
